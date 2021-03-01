@@ -1,0 +1,122 @@
+:root {
+  --seablue: #28527a;
+  --lightseablue: #acd4fa5c;
+  --lightblue: #e2f1ff;
+  --seablue-tr: #28527a8f;
+  --yellow: #f4d160;
+  --lightyellow: #fbeeac;
+  --white: #ffffff;
+  --grey: #3d3d3d;
+}
+body {
+  background-color: var(--seablue);
+}
+
+html .main {
+  background-color: var(--lightblue);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+}
+
+body,
+.container {
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: rgb(61, 61, 61);
+}
+
+.h1 {
+  /* font-size: 1em; */
+  font-weight: bold;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.p-top-xxl {
+  padding-top: 5rem;
+}
+
+.divider {
+  margin: 4rem 0;
+}
+
+.divider-tr {
+  background-color: transparent;
+}
+
+.divider-s {
+  margin: 0;
+  margin-top: 2rem;
+}
+
+.background-seablue {
+  background-color: var(--seablue);
+}
+
+.background-lightblue {
+  background-color: var(--lightblue);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-seablue {
+  color: var(--seablue);
+}
+
+.content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+}
+
+.relative-box {
+  position: relative;
+  z-index: 10;
+}
+
+.center-row {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.covid-warning {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

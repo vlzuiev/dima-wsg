@@ -1,0 +1,39 @@
+.carousel-control-prev-icon {
+  color: var(--yellow);
+}
+
+.carousel-control-prev:active,
+.carousel-control-next:active {
+  animation-name: changecolor;
+  animation-duration: 2s;
+}
+
+@keyframes changecolor {
+  0% {
+    background-color: transparent;
+  }
+  25% {
+    background-color: #3d3d3d65;
+  }
+  50% {
+    background-color: #3d3d3d65;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--lightseablue);
+}
+
+.carousel-indicators .active {
+  background-color: var(--seablue);
+}
+
+.carousel-item {
+  max-height: 800px;
+}

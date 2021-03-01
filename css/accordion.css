@@ -1,0 +1,7 @@
+.accordion-button:focus {
+  box-shadow: unset;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--seablue);
+}

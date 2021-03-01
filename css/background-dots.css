@@ -1,0 +1,19 @@
+.backgroung-dots-left {
+  position: absolute;
+  z-index: 1;
+  top: -100;
+  left: -250px;
+}
+
+.backgroung-dots-left svg g,
+.background-dots-right svg g {
+  fill: var(--lightseablue);
+}
+
+.background-dots-right {
+  z-index: 1;
+  width: 30%;
+  position: absolute;
+  top: 4rem;
+  right: -9rem;
+}
